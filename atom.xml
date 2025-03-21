@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>ASIR es informática</title>
+    <link href="https://jvrcabrera.github.io/web/"/>
+    <updated>2025-03-21T10:10:00Z</updated>
+    <author>
+        <name>Mi Sitio Web</name>
+    </author>
+    <id>https://jvrcabrera.github.io/web/</id>
+
+    <entry>
+        <title>Base de Datos</title>
+        <link href="https://jvrcabrera.github.io/web/paginas/bdd.html"/>
+        <id>https://jvrcabrera.github.io/web/paginas/bdd.html</id>
+        <updated>2025-03-21T10:00:00Z</updated>
+        <summary>Proyecto final sobre la creación de una Base de Datos.</summary>
+    </entry>
+
+    <entry>
+        <title>Redes</title>
+        <link href="https://jvrcabrera.github.io/web/paginas/redes.html"/>
+        <id>https://jvrcabrera.github.io/web/paginas/redes.html</id>
+        <updated>2025-03-21T10:05:00Z</updated>
+        <summary>Configuración básica de un switch.</summary>
+    </entry>
+
+    <entry>
+        <title>Sobre mí</title>
+        <link href="https://jvrcabrera.github.io/web/paginas/sobremi.html"/>
+        <id>https://jvrcabrera.github.io/web/paginas/sobremi.html</id>
+        <updated>2025-03-21T10:10:00Z</updated>
+        <summary>Acerca de mí.</summary>
+    </entry>
+</feed>

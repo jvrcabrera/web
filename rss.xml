@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>ASIR es informática</title>
+        <link>https://jvrcabrera.github.io/web/</link>
+        <description>Conocimientos que se aprenden en el grado.</description>
+        <language>es</language>
+        <copyright>© 2025 - Mi Sitio Web</copyright>
+
+        <item>
+            <title>Base de Datos</title>
+            <link>https://jvrcabrera.github.io/web/paginas/bdd.html</link>
+            <description>Proyecto final sobre la creación de una Base de Datos.</description>
+            <pubDate>Fri, 21 Mar 2025 10:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Redes</title>
+            <link>https://jvrcabrera.github.io/web/paginas/redes.html</link>
+            <description>Configuración básica de un switch.</description>
+            <pubDate>Fri, 21 Mar 2025 10:05:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Sobre mí</title>
+            <link>https://jvrcabrera.github.io/web/paginas/sobremi.html</link>
+            <description>Acerca de mí.</description>
+            <pubDate>Fri, 21 Mar 2025 10:10:00 GMT</pubDate>
+        </item>
+
+    </channel>
+</rss>

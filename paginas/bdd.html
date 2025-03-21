@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE DE DATOS</title>
+    <link rel="stylesheet" href="../estilos/bdd.css">
+</head>
+<body>
+    <header>
+        <div class="MdnJnt">
+            <a href="https://www.iesmedinaazahara.es/"><div class="logo"><img src="../images/Medina Azahara.png"></div></a>
+            <a href="https://juntadeandalucia.es/"><div class="junta"><img src="../images/jntAndalucia.png"></div></a>
+        </div>
+        <div><h1 class="borde-letras">MEDINA AZAHARA</h1></div>
+        <div class="CsLnkdn">
+            <a href="../index.html"><div class="casa"><img src="../images/casa.png"></div></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><div class="lnk"><img src="../images/linkedin.png"></div></a>
+        </div>
+    </header>
+    <h2><u>Creación de una base de datos siguiendo unas instrucciones dadas por un enunciado creado por mi.</u></h2>
+    <p class="negrita"><u>Este es el enunciado utilizado para la creación de la base de datos:</u></p>
+    <pre>"<i>Un taller mecánico desea gestionar la información de sus clientes, vehículos, empleados y reparaciones. El sistema debe almacenar los siguientes datos:
+    
+    <b>Clientes:</b> Cada cliente tiene un identificador único, su nombre completo, dirección, número de teléfono y correo electrónico.
+ 
+    <b>Vehículos:</b> Para cada vehículo se debe almacenar un número de matrícula único, número de bastidor, cilindrada, potencia, la marca y el modelo.
+
+    <b>Trabajos:</b> Los trabajos se componen de tareas que realizan los empleados. Estos trabajos se descomponen en:
+        <b>- Reparaciones:</b> Se debe registrar un identificador único de la reparación, la fecha de inicio, fecha de finalización, una descripción del problema, descripción de la solución y el costo de la reparación.
+
+        <b>- Pintadas:</b> Se debe registrar un identificador único de la pintura, la fecha de inicio, fecha de finalización y el costo de la pintura.
+
+    <b>Tareas:</b> Las tareas tienen un ID único y una tarea la hace un empleado.
+
+    <b>Empleados:</b> Cada empleado tiene un identificador único, su nombre, teléfono, email, dirección y años de experiencia:
+        <b>- Mecánicos.</b>
+        <b>- Pintores.</b>
+
+    Los empleados también cuentan con un jefe y el jefe puede ser de varios empleados. Estos jefes son empleados.
+
+    <b>Piezas:</b> Cada pieza tiene un código único, nombre, precio unitario y cantidad en stock. Se debe registrar qué piezas se utilizaron en cada reparación y en qué cantidad.
+
+    <b>Pedidos:</b> Cada pedido tiene un número que lo identifica y en él aparece la cantidad y el ID de las piezas y número de líneas de pedidos.
+
+    <b>Proveedores:</b> Cada una de los proveedores a los que se le hacen pedidos necesitan una dirección, un número telefónico, un email, un nombre y una persona de contacto.
+
+    - Cada vehículo está asociado a un único cliente. 
+    - Cada reparación está asociada a un solo vehículo.
+    - Cada vehículo puede tener más de una reparación.
+    - En la reparación o pintura de un vehículo pueden participar varios empleados.
+    - Un cliente puede tener más de un vehículo.
+    - Durante una reparación pueden usarse varias piezas. 
+    - Los proveedores no pueden tener el mismo nombre.</i>"</pre>
+    <p class="negrita"><u>Modelo E/R y los atributos de las entidades:</u></p>
+    <a href="#EntidadRelacion"><img src="../images/EntidadRelacion.png" class="imagen" alt="Clic para ampliar"></a>
+    <div id="EntidadRelacion" class="modal">
+        <a href="#">
+            <img src="../images/EntidadRelacion.png" alt="Clic para disminuir">
+        </a>
+    </div>
+    <p class="negrita"><u>Transformación del modelo E/R:</u></p>
+    <a href="#transformacion"><img src="../images/transformacion.png" class="imagen" alt="Clic para ampliar"></a>
+    <div id="transformacion" class="modal">
+        <a href="#">
+            <img src="../images/transformacion.png" alt="Clic para disminuir">
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="overlay">
+             <p>© 2025 - Mi Sitio Web</p>
+             <div class="RssAtom">
+             <a href="rss.xml"><div class="rss"><img src="../images/rss.png"></div></a>
+             <a href="atom.xml"><div class="atom"><img src="../images/atom.png"></div></a>
+            </div>
+        </div>
+    </footer>
+</body>

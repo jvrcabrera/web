@@ -83,7 +83,7 @@ p {
 
 .imagen {
     width: 18.75rem;
-    cursor: url('../images/Koki.png');
+    cursor: url('../images/Koki.png'), auto;
 }
 
 .modal {
@@ -97,12 +97,12 @@ p {
     background-color: rgba(0, 0, 0, 0.9);
     justify-content: center;
     align-items: center;
-    cursor: url('../images/Koki.png');
 }
 
 .modal img {
     max-width: 80%;
     max-height: 80%;
+    cursor: url('../images/Koki.png'), auto;
 }
 
 .modal:target {

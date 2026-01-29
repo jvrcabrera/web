@@ -50,6 +50,7 @@ h1 {
     margin-bottom: 0.9375rem;
     cursor: url('../images/Koki.png'), auto;
     margin-top: 3.75rem;
+    transition: color 0.3s ease;
 }
 
 .nube h4 {
@@ -58,6 +59,7 @@ h1 {
     margin-bottom: 0.9375rem;
     cursor: url('../images/Koki.png'), auto;
     margin-top: 4.375rem;
+    transition: color 0.3s ease;
 }
 
 .nube h5 {
@@ -66,6 +68,7 @@ h1 {
     margin-bottom: 0.9375rem;
     cursor: url('../images/Koki.png'), auto;
     margin-top: 4.375rem;
+    transition: color 0.3s ease;
 }
 
 .nube2 {
@@ -76,6 +79,10 @@ h1 {
 }
 .nube2:hover {
     transform: scale(1.04);
+    background-color: #9A3B2A;
+}
+.nube2:hover h3 {
+    color: #D4A76A;
 }
 
 .nube3 {
@@ -86,6 +93,10 @@ h1 {
 }
 .nube3:hover {
     transform: scale(1.04);
+    background-color: #9A3B2A;
+}
+.nube2:hover h4 {
+    color: #D4A76A;
 }
 
 .nube4 {
@@ -96,6 +107,10 @@ h1 {
 }
 .nube4:hover {
     transform: scale(1.04);
+    background-color: #9A3B2A;
+}
+.nube2:hover h5 {
+    color: #D4A76A;
 }
 
 .borde-letras {
@@ -201,4 +216,5 @@ a {
 .CsLnkdn {
     display: flex;
     gap: 1.25rem;
+
 }

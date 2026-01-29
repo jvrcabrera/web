@@ -95,7 +95,7 @@ h1 {
     transform: scale(1.04);
     background-color: #9A3B2A;
 }
-.nube2:hover h4 {
+.nube3:hover h4 {
     color: #D4A76A;
 }
 
@@ -109,7 +109,7 @@ h1 {
     transform: scale(1.04);
     background-color: #9A3B2A;
 }
-.nube2:hover h5 {
+.nube4:hover h5 {
     color: #D4A76A;
 }
 
@@ -218,3 +218,4 @@ a {
     gap: 1.25rem;
 
 }
+
